@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_groups_setting" tools:context="shs111.qiyas.GroupsSetting"
+    android:background="#4999a0">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="إختيار المجموعات التي ترغب في الإنضمام إليها:"
+            android:id="@+id/textView9"
+            android:layout_gravity="right"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ملاحظة:"
+            android:id="@+id/textView10"
+            android:layout_gravity="right"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="يجب أن يكون إختيارك أقل من أربع مجموعات."
+            android:id="@+id/textView11"
+            android:layout_gravity="right"
+            android:textColor="#ffffff" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="إختبار القدرات العامة."
+            android:id="@+id/checkBox"
+            android:layout_gravity="right"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="إختبار القدرات العامة باللغة الإنجليزية."
+            android:id="@+id/checkBox2"
+            android:layout_gravity="right"
+            android:textColor="#ffffff" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="إختبار التحصيل الدراسي للتخصصات العلمية."
+            android:id="@+id/checkBox3"
+            android:layout_gravity="right"
+            android:textColor="#ffffff" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="إختبار التحصيل الدراسي للتخصصات النظرية."
+            android:id="@+id/checkBox4"
+            android:layout_gravity="right"
+            android:textColor="#ffffff" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="إختبار القدرات للجامعيين."
+            android:id="@+id/checkBox5"
+            android:layout_gravity="right"
+            android:textColor="#ffffff" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="إختبار المعلمين والمعلمات."
+            android:id="@+id/checkBox6"
+            android:layout_gravity="right"
+            android:textColor="#ffffff" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="2">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="تراجع"
+                android:id="@+id/backButton"
+                android:layout_weight="1"
+                android:layout_marginTop="50dp"
+                android:textColor="#4b9ba2" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="موافق"
+                android:id="@+id/okButton"
+                android:layout_weight="1"
+                android:layout_marginTop="50dp"
+                android:textColor="#4f9da4" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
