@@ -62,7 +62,7 @@
             android:layout_width="166dp"
             android:layout_height="wrap_content"
             android:text="تسجيل جديد"
-            android:id="@+id/newloginButton2"
+            android:id="@+id/newloginButton"
             android:layout_gravity="center_horizontal"
             android:textColor="#4a9aa1" />
     </LinearLayout>

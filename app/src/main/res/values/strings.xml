@@ -7,4 +7,5 @@
     <string name="title_activity_chat_setting">ChatSetting</string>
     <string name="title_activity_chat_room">ChatRoom</string>
     <string name="title_activity_test">test</string>
+    <string name="title_activity_main">MainActivity</string>
 </resources>
